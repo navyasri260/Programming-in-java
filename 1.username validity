@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+public static void main(strings args[]){
+	class uservalid
+	scanner sc=new.scanner(system.in)
+	string a=sc.nextline();
+	system.out.println("enter the username:")
+	string b=sc.nextline();
+	system.out.println("re-enter the username")
+}
+
+if{
+	(a.equlas(b))
+        system.out.println("valid")
+}
+else{
+	system.out.println("not valid")
+}
