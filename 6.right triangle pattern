@@ -1,0 +1,15 @@
+import java.util.*;
+class triangle star{
+	public static void StarRightTriangle(int n){
+		int a,b;
+		for(a=0;a<n;a++){
+			system.out.println("*");
+		}
+		system.out.println();
+	}
+}
+public static void main(string args[]){
+	int k=5;
+	StarRightTriangle(k):
+	}
+}
