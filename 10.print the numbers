@@ -1,0 +1,21 @@
+public class SkipNumbers {
+
+    public static void main(String[] args) {
+        int M = 10; // Starting number
+        int N = 50; // Ending number
+        int K = 5;  // Numbers to skip
+
+        printNumbersWithSkip(M, N, K);
+    }
+
+    public static void printNumbersWithSkip(int start, int end, int skip) {
+        if (start > end) {
+            System.out.println("Invalid range");
+            return;
+        }
+
+        for (int i = start; i <= end; i += skip + 1) {
+            System.out.print(i + " ");
+        }
+    }
+}
