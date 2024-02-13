@@ -1,0 +1,16 @@
+import java.util.*;
+public class reverse number{
+   public static void main(string[] args){
+	scanner sc=new scanner(system.in);
+	system.out,println("enter the age);
+	int age=Integer.parseInt(sc.next());
+	if(age>=18){
+		system.out.ptintln("eligible");
+	}
+	else if(age<0){
+		system.out.ptintln("invalid input");
+	}else{
+		system.out.ptintln("you are eligible after"+(18-age)"years");
+	}
+ }
+}
